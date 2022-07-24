@@ -13,9 +13,9 @@ st.header('Enter Three Numbers')
 
 def user_input_features():
     
-    number_1 = st.number_input("CNT_CHILDREN",min_value=0,max_value=20,step=1)
-    number_2 = st.number_input("AMT_INCOME_TOTAL",min_value=0.0,max_value=2000000.0)
-    number_3 = st.number_input("DAYS_BIRTH",min_value=-30000,max_value=0,step=1)
+    number_1 = st.number_input("number_1")
+    number_2 = st.number_input("number_2")
+    number_3 = st.number_input("number_3")
     
 
     data = {'NUMBER_1': number_1,
